@@ -1,5 +1,5 @@
 # 事前準備
-RAGに使用するPDFを「doc」フォルダーに入れる。
+空の「doc」フォルダーを作成し、RAGに使用するPDFを「doc」フォルダーに入れる。
 
 # 1回目のみ
 $ python -m venv .venv && .venv\Scripts\activate
