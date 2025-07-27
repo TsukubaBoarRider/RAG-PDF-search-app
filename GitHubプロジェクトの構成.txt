@@ -1,0 +1,12 @@
+doc-search-app/
+├─ docs/                     　　　　　　　　　　　　　　　　　　# ← PDFを置く場所
+│   ├─ 1.pdf
+│   ├─ 2.pdf
+│   ├─ 3.pdf
+│   ├─ ...
+│   └─ ...
+├─ data/                     # ← build_index.py による自動ベクトルストア作成 (SQLite / pkl)
+├─ build_index.py            # script：PDFを読み取り→ chunk→embedding→saving vector
+├─ app.py                    # Streamlit (APP)
+├─ requirements.txt
+└─ README.md
